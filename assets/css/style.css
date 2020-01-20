@@ -1,12 +1,39 @@
-.myHeader
-{
-  width:100%;
-}
-.AboutMain
-{
-  width:100%;
-}
-.myFooter
-{
-  width:100%;
-}
+  .Header {
+    display: none;
+  }
+
+  #navSpan {
+    display: block;
+  }
+
+  .AboutMain {
+    width: 100%;
+  }
+
+  .Footer {
+    width: 100%;
+    background-color: gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .Header {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 30px;
+    }
+    #navSpan {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {}
+
+  @media (max-width: 980px) {}
