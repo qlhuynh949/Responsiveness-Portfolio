@@ -1,2 +1,2 @@
-# UCIFullStackHW2
-Homework Assignment 2 for UCI Full Stack Web Developer Course
+# Responsiveness Portfolio
+Using Bootstrap to create a mobile-first responsive portfolio application 
