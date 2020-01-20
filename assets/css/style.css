@@ -12,11 +12,24 @@
 
   .Main {
     width: 100%;
-    padding:15px;
+    padding:20px;
+    background-color:lightgray;
+    
   }
 
-
-
+  .container{
+background-color:white;
+  }
+.SubjectTitle{
+  font-size:20px;
+  color:darkblue;
+  font-weight:bold;
+}
+#titleLine{
+  color:darkblue;
+  background-color: darkblue;
+  height: 1px;
+}
   .Footer {
     width: 100%;
     background-color: black;
