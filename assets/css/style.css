@@ -1,23 +1,33 @@
   .Header {
     display: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
   }
 
   #navSpan {
     display: block;
   }
 
-  .AboutMain {
+  .Main {
     width: 100%;
+    padding:15px;
   }
+
+
 
   .Footer {
     width: 100%;
-    background-color: gray;
+    background-color: black;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     position: fixed;
     bottom: 0;
     text-align: center;
+    border-top: solid;
+    border-top-color: lightgray;
   }
 
   @media (max-width: 640px) {
