@@ -24,7 +24,7 @@
     background-color: #ffffff;
     color: black;
     text-align: centert;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
   }
 
@@ -146,7 +146,7 @@
       background-color: #ffffff;
       color: black;
       text-align: centert;
-      font-size: 15px;
+      font-size: 25px;
       font-weight: bold;
     }
     #smallLayout {
@@ -259,7 +259,7 @@
       display: none;
     }
     #largeLayout {
-      width: 98%;
+      width: 100%;
     }
     .container {
       background-color: white;
