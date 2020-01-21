@@ -1,21 +1,69 @@
   .Header {
     display: none;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 30px;
+  }
+
+  .navContainer {
+    background-color: #343a40;
+    width: 100%;
+  }
+
+  .navLeft {
+    width: 30px;
+  }
+
+  #largeLayout {
+    width: 100%;
   }
 
   #navSpan {
     display: block;
+    background-color: #ffffff;
+    color: black;
+    text-align: centert;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  body {
+    background-color: lightgray;
   }
 
   .Main {
     width: 100%;
-    padding:15px;
+    padding-top: 20px;
+    background-color: lightgray;
   }
 
+  .container {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+  }
 
+  .noLeft {
+    padding-left: 0px;
+  }
+
+  .SubjectTitle {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+  }
+
+  #portfolioContent {
+    width: 100%;
+  }
+
+  #titleLine {
+    color: darkblue;
+    background-color: darkblue;
+    height: 1px;
+    width: 100%
+  }
 
   .Footer {
     width: 100%;
@@ -27,7 +75,8 @@
     bottom: 0;
     text-align: center;
     border-top: solid;
-    border-top-color: lightgray;
+    border-width: 5px;
+    border-top-color: white;
   }
 
   @media (max-width: 640px) {
@@ -42,8 +91,28 @@
     #navSpan {
       display: none;
     }
+    #titleLine {
+      color: darkblue;
+      background-color: darkblue;
+      height: 1px;
+      width: 630px;
+    }
   }
 
-  @media (max-width: 768px) {}
+  @media (max-width: 768px) {
+    #titleLine {
+      color: darkblue;
+      background-color: darkblue;
+      height: 1px;
+      width: 768px;
+    }
+  }
 
-  @media (max-width: 980px) {}
+  @media (max-width: 980px) {
+    #titleLine {
+      color: darkblue;
+      background-color: darkblue;
+      height: 1px;
+      width: 980px;
+    }
+  }
