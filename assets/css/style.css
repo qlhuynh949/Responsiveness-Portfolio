@@ -32,6 +32,10 @@
     background-color: lightgray;
   }
 
+  .wordRap
+  {
+    overflow-wrap:break-word;
+  }
   .Main {
     width: 100%;
     padding-top: 20px;
@@ -135,7 +139,7 @@
       margin-right: 30px;
     }
     #AboutMain {
-      width: 961px;
+      width: 878px;
     }
     #navSpan {
       display: block;
@@ -225,7 +229,7 @@
     }
   }
 
-  @media  (min-width: 1230px) {
+  @media (min-width: 1230px) {
     #titleLine {
       color: darkblue;
       background-color: darkblue;
