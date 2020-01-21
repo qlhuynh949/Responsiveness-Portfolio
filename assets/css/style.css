@@ -139,14 +139,14 @@
       margin-right: 30px;
     }
     #AboutMain {
-      width: 878px;
+      width: 888px;
     }
     #navSpan {
       display: block;
       background-color: #ffffff;
       color: black;
       text-align: centert;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
     }
     #smallLayout {
