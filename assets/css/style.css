@@ -11,12 +11,12 @@
     width: 100%;
   }
 
-  .navLeft {
-    width: 30px;
+  .wordRap {
+    overflow-wrap: break-word;
   }
 
-  #largeLayout {
-    width: 100%;
+  #smallLayoutParagraph {
+    font-size: 12px;
   }
 
   #navSpan {
@@ -28,28 +28,15 @@
     font-weight: bold;
   }
 
-  body {
-    background-color: lightgray;
-  }
-
-  .wordRap
-  {
-    overflow-wrap:break-word;
-  }
-  .Main {
-    width: 100%;
-    padding-top: 20px;
-    background-color: lightgray;
-  }
-
-  .container {
-    background-color: white;
-    padding: 15px;
-    width: 100%;
+  .indentColumn {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50px;
   }
 
   .noLeft {
     padding-left: 0px;
+    padding-right: 0px;
   }
 
   .SubjectTitle {
@@ -59,8 +46,24 @@
     width: 100%
   }
 
-  #portfolioContent {
+  .container {
+    background-color: white;
+    padding: 15px;
     width: 100%;
+  }
+
+  .Main {
+    width: 100%;
+    padding-top: 20px;
+    background-color: lightgray;
+  }
+
+  #largeLayout {
+    width: 100%;
+  }
+
+  #smallLayout {
+    display: none;
   }
 
   #titleLine {
@@ -84,6 +87,10 @@
     border-top-color: white;
   }
 
+  body {
+    background-color: lightgray;
+  }
+
   @media (max-width: 767px) {
     .Header {
       display: block;
@@ -93,10 +100,13 @@
       color: white;
       font-size: 30px;
     }
-    #navSpan {
-      display: none;
+    .SubjectTitle {
+      font-size: 30px;
+      color: darkblue;
+      font-weight: bold;
+      width: 300px;
     }
-    #smallLayout {
+    #navSpan {
       display: none;
     }
     #titleLine {
@@ -118,152 +128,11 @@
     }
   }
 
-  @media (min-width: 768px) and (max-width: 979px) {
-    #titleLine {
-      color: darkblue;
-      background-color: darkblue;
-      height: 1px;
-    }
-    .Main {
-      width: 768px;
-      padding-top: 20px;
-      background-color: lightgray;
-    }
+  @media (min-width: 768px) {
     .SubjectTitle {
       font-size: 30px;
       color: darkblue;
       font-weight: bold;
-      width: 768px;
-    }
-    #AboutContainer {
-      margin-right: 30px;
-    }
-    #AboutMain {
-      width: 888px;
-    }
-    #navSpan {
-      display: block;
-      background-color: #ffffff;
-      color: black;
-      text-align: centert;
-      font-size: 25px;
-      font-weight: bold;
-    }
-    #smallLayout {
-      display: none;
-    }
-    #largeLayout {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 980px) and (max-width:991px) {
-    #titleLine {
-      color: darkblue;
-      background-color: darkblue;
-      height: 1px;
-    }
-    .Main {
-      width: 100%;
-      padding-top: 20px;
-      background-color: lightgray;
-    }
-    .SubjectTitle {
-      font-size: 30px;
-      color: darkblue;
-      font-weight: bold;
-      width: 980px;
-    }
-    #navSpan {
-      display: block;
-      background-color: #ffffff;
-      color: black;
-      text-align: centert;
-      font-size: 25px;
-      font-weight: bold;
-    }
-    #smallLayout {
-      display: none;
-    }
-    #largeLayout {
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 992px) and (max-width: 1229px) {
-    #titleLine {
-      color: darkblue;
-      background-color: darkblue;
-      height: 1px;
-      width: 100%;
-    }
-    .Main {
-      width: 100%;
-      padding-top: 20px;
-      background-color: lightgray;
-    }
-    .SubjectTitle {
-      font-size: 30px;
-      color: darkblue;
-      font-weight: bold;
-      width: 500px;
-    }
-    #navSpan {
-      display: block;
-      background-color: #ffffff;
-      color: black;
-      text-align: centert;
-      font-size: 25px;
-      font-weight: bold;
-    }
-    #smallLayout {
-      display: none;
-    }
-    #largeLayout {
-      width: 98%;
-    }
-    .container {
-      background-color: white;
-      padding: 15px;
-      width: 100%;
-    }
-  }
-
-  @media (min-width: 1230px) {
-    #titleLine {
-      color: darkblue;
-      background-color: darkblue;
-      height: 1px;
-      width: 100%;
-    }
-    .Main {
-      width: 100%;
-      padding-top: 20px;
-      background-color: lightgray;
-    }
-    .SubjectTitle {
-      font-size: 30px;
-      color: darkblue;
-      font-weight: bold;
-      width: 500px;
-    }
-    #navSpan {
-      display: block;
-      background-color: #ffffff;
-      color: black;
-      text-align: centert;
-      font-size: 25px;
-      font-weight: bold;
-    }
-    #smallLayout {
-      display: none;
-    }
-    #largeLayout {
-      width: 100%;
-    }
-    .container {
-      background-color: white;
-      padding: 15px;
-      width: 100%;
+      width: 767px;
     }
   }

@@ -17,92 +17,97 @@
   <header class="Header">
     <h1>Quan Huynh</h1>
   </header>
-
-  <div class="navContainer">
-    <div class="row">
-      <div class="col-1"></div>
-      <div class="col-2" id="navSpan">
-        <h1>Quan Huynh</h1>
+  <main>
+    <div class="navContainer">
+      <div class="row">
+        <div class="col-1 indentColumn"></div>
+        <div class="col-2" id="navSpan">
+          <h1>Quan Huynh</h1>
+        </div>
+        <div class="col-9">
+          <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
-      <div class="col-auto">
-        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-
-  <main class="Main"></main>
-  <div class="row">
-    <div class="col-1 noLeft"></div>
-    <div class="col-auto noLeft">
-      <div class="container">
-        <h1 class="SubjectTitle">Contact</h1>
-        <hr id="titleLine">
-
-        <div id="largeLayout" class="row">
-          <div class="col-auto">
-            <form>
-              <div class="form-group">
-                <label for="Name">Name</label>
-                <input type="text" class="form-control" id="NameInput" placeholder="Your Name">
+      <section id="largeLayout" class="Main">
+        <div class="row">
+          <div class="col-1 indentColumn"></div>
+          <div class="col-auto noLeft">
+            <div class="container">
+              <h1 class="SubjectTitle">Contact</h1>
+              <hr id="titleLine">
+              <div id="largeLayout" class="row">
+                <div class="col-auto">
+                  <form>
+                    <div class="form-group">
+                      <label for="Name">Name</label>
+                      <input type="text" class="form-control" id="NameInput" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="Email">Email</label>
+                      <input type="email" class="form-control" id="EmailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="TextArea">Message</label>
+                      <textarea class="form-control" id="MessageInput" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="Email">Email</label>
-                <input type="email" class="form-control" id="EmailInput" placeholder="name@example.com">
-              </div>
-              <div class="form-group">
-                <label for="TextArea">Message</label>
-                <textarea class="form-control" id="MessageInput" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            </div>
           </div>
         </div>
-
-        <div id="smallLayout">
-          <form>
-            <div class="form-group">
-              <label for="Name">Name</label>
-              <input type="text" class="form-control" id="NameInput" placeholder="Your Name">
+      </section>
+      <section id="smallLayout">
+        <div class="row">
+          <div class="col-1 indentColumn"></div>
+          <div class="col-auto noLeft">
+            <div class="container">
+              <h1 class="SubjectTitle">Contact</h1>
+              <hr id="titleLine">
+              <div id="smallLayout">
+                <form>
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" id="NameInput" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="email" class="form-control" id="EmailInput" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="TextArea">Message</label>
+                    <textarea class="form-control" id="MessageInput" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="Email">Email</label>
-              <input type="email" class="form-control" id="EmailInput" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="TextArea">Message</label>
-              <textarea class="form-control" id="MessageInput" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </div>
         </div>
-
-
-      </div>
+      </section>
     </div>
-  </div>
   </main>
 
-
   <footer class="Footer">@Copyright 2020 by Quan Huynh</footer>
-
 </body>
 <!-- jQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -111,5 +116,6 @@
 
 <!-- Bootstrap JavaScript CDN -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
 
 </html>
